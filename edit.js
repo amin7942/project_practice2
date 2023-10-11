@@ -11,3 +11,6 @@ function valid(){
         window.location.href="index.html";
     }
 }
+function deletes(){
+    confirm("게시물을 삭제 할까요?");
+}
