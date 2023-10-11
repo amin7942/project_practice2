@@ -2,6 +2,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+html,body{
+    margin: 0;
+    height: 100%;
+    display: block;
+}
 #header h3{
     margin-top: 40px;
     margin-bottom: 40px;
@@ -78,4 +83,25 @@ textarea{
     border: 1px solid black;
     width: 50px;
     background-color: aliceblue;
+}
+#edit_input{
+    width: 200px;
+}
+
+
+#edit_container{
+    height: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#edit_input{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#edit_button{
+    border: 1px solid black;
+   
 }
