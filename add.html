@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="my.css">
+    <script src="save.js"></script>
+</head>
+<body>
+    <!-- <form action="" method="post"> -->
+        <ul>
+            <li>
+                <label for="username">유저 닉네임</label>
+                <input type="text" class="info" name="username" required>
+            </li>
+            <li>
+                <label for="server">서버</label>
+                <input type="text" class="info" name="server" required>
+            </li>
+            <li>
+                <label for="reason">블랙리스트 추가 이유</label>
+                <textarea name="" class = "info" cols="30" rows="10" name="reason" required></textarea>
+            </li>
+        </ul>
+        <button type="submit" id="save" onclick="save_data()">저장</button>
+    <!-- </form> -->
+</body>
+</html>
